@@ -11,7 +11,7 @@ public class Patient {
         this.sc=sc;
     }
 
-    //add
+    //add patient function
     public void addPatient() {
         System.out.println("Enter Patient Name: ");
         String name = sc.next();
@@ -38,7 +38,7 @@ public class Patient {
         }
     }
 
-    //view
+    //view patient function
     public void viewPatient(){
         String query = "insert into patients(name, age, gender) values(? ? ?)";
         try{
